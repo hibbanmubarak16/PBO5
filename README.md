@@ -6,12 +6,12 @@ Class PenerapanException sebagai implementasi custom exception handling untuk me
 Aplikasi Java Swing CRUD sederhana untuk manajemen data Mata Kuliah. Database yang digunakan adalah PostgreSQL. Pengguna dapat menambah, mengubah, menghapus, dan melihat data mata kuliah melalui antarmuka grafis.
 
 #Fitur
-Tampilkan data mata kuliah di tabel (JTable).
-Tambah data baru (Insert).
-Pilih baris di tabel untuk mengisi form secara otomatis.
-Perbarui data berdasarkan data lama sebagai kondisi (WHERE).
-Validasi sederhana agar semua field wajib diisi.
-Kosongkan form setelah tindakan (Simpan / Update).
+-Tampilkan data mata kuliah di tabel (JTable).
+-Tambah data baru (Insert).
+-Pilih baris di tabel untuk mengisi form secara otomatis.
+-Perbarui data berdasarkan data lama sebagai kondisi (WHERE).
+-Validasi sederhana agar semua field wajib diisi.
+-Kosongkan form setelah tindakan (Simpan / Update).
 #Struktur Project
 Class GUI yang mengatur tampilan form, tabel, dan tombol aksi (Simpan, Update, Hapus, Bersih).
 Koneksi ke database menggunakan JDBC.
@@ -22,22 +22,22 @@ PostgreSQL terinstal & berjalan.
 Tabel database (mata_kuliah) dengan kolom seperti kode, nama, matkul_semester (tipe integer), dosen_pengajar.
 Driver PostgreSQL (JDBC) ditambahkan ke classpath / library project.
 #Cara Menggunakan
-Clone repository:
+1. Clone repository:
 
 git clone https://github.com/fa-iqq29/Tugas-Pertemuan-5.git
-Konfigurasi database di kode:
+2. Konfigurasi database di kode:
 
 Ubah URL, user, dan password sesuai pengaturan lokalmu.
 
-Jalankan aplikasi:
+3. Jalankan aplikasi:
 
 Jalankan class utama (GUI JFrame). Aplikasi akan membuka form, menghubungkan ke database, dan memuat data dari tabel.
 
-Menambah data:
+4. Menambah data:
 
 Isi semua field, lalu klik tombol Simpan.
 
-Memperbarui data:
+5. Memperbarui data:
 
 Klik salah satu baris di JTable → ini akan mengisi field form.
 
@@ -45,6 +45,6 @@ Ubah data di field yang ingin diupdate.
 
 Klik tombol Update.
 
-Menghapus data:
+6. Menghapus data:
 
 (Jika fitur Hapus sudah ada) → Pilih baris → klik tombol Hapus.# PBO5
