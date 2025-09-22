@@ -1,4 +1,5 @@
 #Tugas Pertemuan 5
+
 #Deskripsi Penerapan Exception
 Class PenerapanException sebagai implementasi custom exception handling untuk mencontohkan bagaimana Java menangani error khusus (contoh kasus: saldo tidak cukup saat transaksi).
 
@@ -12,15 +13,18 @@ Aplikasi Java Swing CRUD sederhana untuk manajemen data Mata Kuliah. Database ya
 -Perbarui data berdasarkan data lama sebagai kondisi (WHERE).
 -Validasi sederhana agar semua field wajib diisi.
 -Kosongkan form setelah tindakan (Simpan / Update).
+
 #Struktur Project
 Class GUI yang mengatur tampilan form, tabel, dan tombol aksi (Simpan, Update, Hapus, Bersih).
 Koneksi ke database menggunakan JDBC.
 Statement / PreparedStatement untuk query SQL (SELECT, INSERT, UPDATE, DELETE).
+
 #Prasyarat
 Java (versi minimal yang mendukung var, jika digunakan).
 PostgreSQL terinstal & berjalan.
 Tabel database (mata_kuliah) dengan kolom seperti kode, nama, matkul_semester (tipe integer), dosen_pengajar.
 Driver PostgreSQL (JDBC) ditambahkan ke classpath / library project.
+
 #Cara Menggunakan
 1. Clone repository:
 
